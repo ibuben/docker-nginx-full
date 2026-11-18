@@ -18,6 +18,7 @@ pipeline {
 		BUILDX_NAME         = "nginxfull_${GIT_BRANCH}"
 		BRANCH_LOWER        = "${BRANCH_NAME.toLowerCase().replaceAll('/', '-')}"
 		OPENRESTY_VERSION   = '1.31.8.1'
+		NGINX_VERSION       = '1.31.9'
 		LUA_VERSION         = '5.1.5'
 		LUAROCKS_VERSION    = '3.13.0'
 	}
