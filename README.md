@@ -2,6 +2,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/openresty-1.31.8.1-green.svg?style=for-the-badge">
+  <img src="https://img.shields.io/badge/nginx-1.31.9-green.svg?style=for-the-badge">
   <img src="https://img.shields.io/badge/lua-5.1.5-green.svg?style=for-the-badge">
   <img src="https://img.shields.io/badge/luarocks-3.13.0-green.svg?style=for-the-badge">
   <a href="https://hub.docker.com/repository/docker/nginxproxymanager/nginx-full">

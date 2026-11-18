@@ -10,6 +10,9 @@ variable "TAG_PREFIX" {
 variable "OPENRESTY_VERSION" {
 	default = "1.31.8.1"
 }
+variable "NGINX_VERSION" {
+	default = "1.31.9"
+}
 variable "NODE_MAJOR" {
 	default = "26"
 }
@@ -33,6 +36,7 @@ target "base" {
 	dockerfile = "docker/Dockerfile"
 	args = {
 		OPENRESTY_VERSION = "${OPENRESTY_VERSION}"
+		NGINX_VERSION = "${NGINX_VERSION}"
 		LUA_VERSION = "${LUA_VERSION}"
 		LUAROCKS_VERSION = "${LUAROCKS_VERSION}"
 	}
